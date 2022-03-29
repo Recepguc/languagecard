@@ -7,6 +7,7 @@
     display: grid;
     grid-template-rows: 10% 90%;
     grid-template-areas: "top" "bottom";
+    overflow: hidden;
 }
 
 .language-title{
@@ -23,4 +24,16 @@
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+
+.bars{
+    height: 41rem;
+    width: 5rem;
+    position: relative;
+    background-color: #53c1de;
+    transform: rotate(-45deg);
+    top:-40rem;
+    left:10rem;
+    
+
 }
