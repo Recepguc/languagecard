@@ -7,7 +7,7 @@ import php from "../assets/php.png";
 import javascript from "../assets/javascript.png";
 import html from "../assets/html.png";
 
-export const categories = [
+export const languages = [
   {
     name: "javascript",
     img: javascript,
@@ -48,4 +48,4 @@ export const categories = [
     img: php,
     options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
   },
-];
+]; 
